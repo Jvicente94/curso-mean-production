@@ -1,0 +1,24 @@
+{
+  "name": "zooilogico-backend",
+  "version": "1.0.0",
+  "description": "Api RETFull deel proyecto zooilogico",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesús Vicente Salamanca",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",//Sirve para encriptar claves y passwords
+    "body-parser": "^1.18.2",//Trnasforma una entrada string de formato json en un objeto js
+    "connect-multiparty": "^2.1.0",//Sirve para subir ficheros
+    "express": "^4.16.2",//Para la creacion de apisentre otras cosas pero sirve para mucho mas
+    "jwt-simple": "^0.5.1",//Para generar tokens mediante jwt
+    "moment": "^2.21.0",// Para fechas 
+    "mongoose": "^5.0.9"// Para facilitar lastareas y conexiones con mongodb
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1" //reinicia el servidor de node cada vez que haces algun cambio en el desarrollos
+  }
+}
